@@ -1,0 +1,21 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.set
+credentials*
+secrets*
+# Commercial downloads and compiled bots (publish via protected distribution)
+02_Student_Downloads/
+*.ex4
+*.ex5
+# Local build/editor output
+.DS_Store
+Thumbs.db
+__pycache__/
+node_modules/
+dist/
+build/
